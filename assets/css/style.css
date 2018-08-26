@@ -4,22 +4,24 @@ body {
 }
 
 .navbar {
+    height: 85px;
     overflow: hidden;
     background-color: #fff;
     position: fixed;
     top: 0;
     width: 100%;
+    border-bottom: 1px solid #666;
+    
   }
   
   .navbar a {
-    float: right;
-    display: block;
     color: #666;
-    text-align: left;
-    padding: 15px 15px;
-    margin: 0 10 0 0;
+    text-align: center;
+    padding: 10;
+    margin: 10;
     text-decoration: none;
     font-size: 17px;
+    border-right: 1px solid #999;
   }
   
   .navbar a:hover {
@@ -27,9 +29,25 @@ body {
     color: pink;
   }
 
+  .links {
+      width: 300px;
+      float: right;
+  }
+
 .mainContainer {
     width: 960px;
     margin: auto;
+}
+
+.mainContainer img {
+    float: left;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.secondaryContainer {
     background-color: #fff;
 }
 
@@ -38,16 +56,18 @@ h1 {
     float: left;
     color: #fff;
     background-color: #4aaaa5;
-    padding: 25px;
-    width: 350px;
-    margin: 0 100 0 300;
+    padding: 24px;
+    width: 300px;
+    margin: 0 100 0 125;
     position: fixed;
     top: 0;
+    left: 0;
+   
 
 }
 
 
-a:default {
+a:link {
     color:black;
 }
 a:hover {
@@ -57,9 +77,14 @@ a:active {
     color: blue;
 }
 
+a:visited {
+    color: red;
+}
+
 h2 {
     font-family: Georgia, Times, Times New Roman, serif;
     padding: 25px;
+    color:#4aaaa5;
     
 }
 
@@ -70,11 +95,9 @@ h2 {
     margin: auto;
 }
 
-.bio p {
-    float: left;
-    width: 400px;
-    padding: 25px;
-    margin: 25px;
+p {
+    margin: 10px;
+    padding: 10px;
 }
 
 
@@ -91,15 +114,8 @@ h2 {
     text-align: center;
 }
 
-
-
-.gallery{
-    width: 960px;
-    background-color: #fff;
-    margin: 100px; 
+.copyright {
+    font-size: 8px;
+    padding: 10px;
 }
-  .gallery img {
-      height: 300px;
-      padding: 25px;
-      margin: 25px;
-  }
+  
