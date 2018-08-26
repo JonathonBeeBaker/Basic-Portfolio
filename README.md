@@ -1,2 +1,3 @@
 # Basic-Portfolio
-Portfolio site to show off my skills.
+Portfolio site to show what I've learned.
+
